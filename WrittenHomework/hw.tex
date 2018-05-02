@@ -58,18 +58,19 @@ the parameters passed in to the algorithm would need constant adjustment. \par
 With the two clustering techniques, we could control the average triangle size by limiting the size of the cell we are using. This 
 seems quite a difficult task for vertex decimation, since the poly count after decimation is hard to determine. \par
 
-And finally, with the quadric error metric algorithm, 
+And finally, the quadric error metric algorithm stands out due to its preservation of the topology
+while being more "controllable" than the vertex decimation technique.
 
 \bigskip
 \hrule
 \bigskip
 \begin{enumerate}
 	\item[a.]{Object Coherence}\\
-		I think object coherence means when there is a moving object, after acquiring its position at 
-		consecutive time steps, we could predict that in the near future, it would still move in the same 
-		way as it did before.\par
-		-- OR -- \par
-		An object's shape stays consistent no matter which direction you look at it?
+		We make use of the fact that most object surfaces are locally consistent. So when we render one
+		pixel on screen that has the color of an object, the next pixel is likely to have roughly
+		the same color as the current pixel. This could be used in resolution scaling in games,
+		for example when we set the "render scale" to 25\%, for every 4 pixels on the screen, we 
+		get the value from one pixel and duplicate that value to 3 other pixels.
 	\item[b.]{Face Coherence}\\
 
 	\item[c.]{Edge Coherence}\\
