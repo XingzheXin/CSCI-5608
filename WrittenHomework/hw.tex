@@ -60,7 +60,41 @@ seems quite a difficult task for vertex decimation, since the poly count after d
 
 And finally, with the quadric error metric algorithm, 
 
-\begin{center}
-	{\bf COHERENCE}
-\end{center}
+\bigskip
+\hrule
+\bigskip
+\begin{enumerate}
+	\item[a.]{Object Coherence}\\
+		I think object coherence means when there is a moving object, after acquiring its position at 
+		consecutive time steps, we could predict that in the near future, it would still move in the same 
+		way as it did before.\par
+		-- OR -- \par
+		An object's shape stays consistent no matter which direction you look at it?
+	\item[b.]{Face Coherence}\\
+
+	\item[c.]{Edge Coherence}\\
+	--
+	Image based rendering
+	--
+	\item[d.]{Scan-line Coherence}\\
+		When moving from one scan-line to another, the changes become predictable, and the intersection
+		between the edges become easy to compute.
+	\item[e.]{Area Coherence}\\
+	warnock algorithm
+	\item[f.]{Depth Coherence}\\
+	binary space tree
+	\item[g.]{Frame Coherence}\\
+		Frame coherence basically means that we could use the information from the previously rendered
+		frame because of the fact that in many cases, there aren't drastic differences between two 
+		consecutive frames (i.e., they should look rather similar most of the time). So we could use
+		this characteristic to our advantage. One example would be data compression for videos. If, for
+		example, it's only the main character doing something while the background doesn't move at all,
+		there is really no need to store the full frame, since we could just use the same color as the 
+		last frame on those areas. Another application that I've seen in real life is that on some 
+		modern projectors, it is able to take a 24 fps movie as input but project at 60 fps. This is 
+		the exact same idea of utilizing the similarities between frames and construct filler frames 
+		that make the animation look much smoother. It does have its issues -  when the camera rapidly
+		changes position or just the scene is changing from white to black quickly, there is visible 
+		ghosting and sometimes causes discomfort for the viewers.
+\end{enumerate}
 \end{document}

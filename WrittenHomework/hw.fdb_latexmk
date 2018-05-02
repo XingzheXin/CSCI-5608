@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1525234647 "/home/xingzhe/Documents/Spring 2018/CSCI-5608/WrittenHomework/hw.tex" "hw.pdf" "hw" 1525234647
-  "/home/xingzhe/Documents/Spring 2018/CSCI-5608/WrittenHomework/hw.tex" 1525234647 4214 58ba55882a57f23f122ed793933c8186 ""
+["pdflatex"] 1525241303 "/home/xingzhe/Documents/Spring 2018/CSCI-5608/WrittenHomework/hw.tex" "hw.pdf" "hw" 1525241303
+  "/home/xingzhe/Documents/Spring 2018/CSCI-5608/WrittenHomework/hw.tex" 1525241303 6092 71dc1deec12e62c96ad362bbf7561132 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1520157216 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1520157226 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1520157226 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -47,9 +47,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1520157258 32585 d82bbcf7626b7842c87671687479e852 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1525205497 2570953 760b5bb0cbd280885d9f95318df536c1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1525205489 7738160 673376ad0d39bee8e78ae8f285a8455e ""
-  "hw.aux" 1525234647 8 a94a2480d3289e625eea47cd1b285758 ""
-  "hw.tex" 1525234647 4214 58ba55882a57f23f122ed793933c8186 ""
+  "hw.aux" 1525241303 8 a94a2480d3289e625eea47cd1b285758 ""
+  "hw.tex" 1525241303 6092 71dc1deec12e62c96ad362bbf7561132 ""
   (generated)
   "hw.pdf"
-  "hw.log"
   "hw.aux"
+  "hw.log"
